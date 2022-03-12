@@ -1,7 +1,7 @@
 html,
 body {
     height: 100%;
-    background-color:  #A7BCE6;
+    background-color:  #73748B;
 }
 
 .wrapper {
@@ -21,7 +21,7 @@ body {
     flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;;
 }
 
 .gifView {
@@ -35,26 +35,27 @@ body {
     align-items: flex-start;
 }
 
-.img {
-    border-radius: 8px;
-    box-shadow: 0 2px 4px #3131403b;
-}
-
 h1 {
     font-family: 'Roboto Condensed', sans-serif;
-    color: #96555E;
+    color: #7c4048;
     font-weight: bold;
     text-transform: uppercase;
     font-size: 34px;
+    text-shadow: 0 2px 0 #23262f3b;
 }
 
 input {
     outline: none;
     border-radius: 8px;
-    border: solid 2px #839ACC;
+    border: solid 2px #51526d;
     padding: 5px 10px;
     min-width: 220px;
     min-height: 30px;
+}
+
+.img {
+    border-radius: 8px;
+    box-shadow: 0 2px 4px #3131403b;
 }
 
 .button {
@@ -69,7 +70,7 @@ input {
     box-shadow: 0 2px 0 #23262f3b;
     position: relative;
     top: 0;
-    background-color: #365a7c;
+    background-color: #96555E;
     margin: 40px 0px;
     outline: none;
 }
@@ -84,5 +85,5 @@ input {
 }
 
 .button:hover {
-    background-color: #698cad;
+    background-color: #ad7980;
 }
