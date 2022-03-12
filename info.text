@@ -1,0 +1,7 @@
+найти свой ключ YE5Q5b8pJlSFjrfT1KcSWaEQy8KsAdIj
+понять код
+сделать чтобы гифки показывали сразу, а не по нажатию на ссылку
+оформление
+валидация
+
+/*/ document.getElementById("gifView").innerHTML += `<img src="${gifka.data[0].images.fixed_width.url}"></img>`*/
