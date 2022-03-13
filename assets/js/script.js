@@ -1,4 +1,13 @@
 document.querySelector('#search').addEventListener('click', function(){
+    searchGif()
+});
+
+document.querySelector('#reset').addEventListener('click', function(){
+    location.reload();
+});
+
+
+function searchGif() {
 
     document.getElementById("gifView").innerHTML = '';//чтобы не множить 5 картинок при многоразовом нажатии на поиск
 
@@ -16,10 +25,5 @@ document.querySelector('#search').addEventListener('click', function(){
         `<img src="${gif.data[4].images.fixed_width.url}" alt="${gifSearch}" class="img"></img>`
     })
     .catch(error =>console.log(error));
-});
 
-document.querySelector('#reset').addEventListener('click', function(){
-    location.reload();
-});
-
-
+}
