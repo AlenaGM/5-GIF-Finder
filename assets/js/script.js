@@ -27,3 +27,30 @@ function searchGif() {
     .catch(error =>console.log(error));
 
 }
+
+/* Здесь я тренировалась с промисами, пока неудачно
+let alenasPromise = new Promise(function(resolve, reject) {
+
+    let alenasEarnings = 2000;
+    let dogPrice = 1500;
+
+    if (alenasEarnings > dogPrice) {
+        resolve({
+        pet: "dog",
+        name: "Fixik",
+        race: "Westie"
+        });
+    } else {
+        reject('нет денег');
+    }
+});
+
+alenasPromise.then(function(value) {
+    console.log("У нас собака!", JSON.stringify(value));
+    });
+    alenasPromise.catch(function(reason) {
+    console.log("Мама не смогла купить собаку потому что", reason);
+    });
+
+console.log(alenasPromise);
+*/
