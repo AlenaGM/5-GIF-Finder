@@ -28,10 +28,10 @@ function searchGif() {
 
 }
 
-/* Здесь я тренировалась с промисами, пока неудачно
+/*/ Здесь я тренировалась с промисами, пока неудачно
 let alenasPromise = new Promise(function(resolve, reject) {
 
-    let alenasEarnings = 2000;
+    let alenasEarnings = 1000;
     let dogPrice = 1500;
 
     if (alenasEarnings > dogPrice) {
@@ -52,5 +52,6 @@ alenasPromise.then(function(value) {
     console.log("Мама не смогла купить собаку потому что", reason);
     });
 
-console.log(alenasPromise);
-*/
+console.log(alenasPromise);*/
+
+
